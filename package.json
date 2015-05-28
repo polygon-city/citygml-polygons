@@ -1,6 +1,6 @@
 {
   "name": "citygml-polygons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Retrieve gml:Polygon elements from a given XML string",
   "main": "index.js",
   "scripts": {
