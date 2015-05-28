@@ -2,8 +2,6 @@ var _ = require("lodash");
 var DOMParser = require("xmldom").DOMParser;
 var domParser = new DOMParser();
 
-module.exports = citygmlPolygons;
-
 var citygmlPolygons = function(xml) {
   var polygons = [];
 
@@ -16,3 +14,5 @@ var citygmlPolygons = function(xml) {
 
   return polygons;
 };
+
+module.exports = citygmlPolygons;
