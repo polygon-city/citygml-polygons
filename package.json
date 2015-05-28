@@ -1,0 +1,32 @@
+{
+  "name": "citygml-polygons",
+  "version": "0.1.0",
+  "description": "Retrieve gml:Polygon elements from a given XML string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polygon-city/citygml-polygons"
+  },
+  "keywords": [
+    "citygml",
+    "polygon",
+    "geometry",
+    "xml",
+    "dom",
+    "mapping",
+    "gis"
+  ],
+  "author": "Robin Hawkes <rob@vizicities.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polygon-city/citygml-polygons/issues"
+  },
+  "homepage": "https://github.com/polygon-city/citygml-polygons",
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "xmldom": "^0.1.19"
+  }
+}
